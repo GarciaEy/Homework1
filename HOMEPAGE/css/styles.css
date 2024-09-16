@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: #656d4a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: #faedcd;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+nav :hover {
+  color: #e9c46a;
+}
+
+.hero {
+  height: 668px;
+  /* background-color: yellow; */
+  margin: 0 auto;
+  position: relative;
+
+  background-image: linear-gradient(
+      rgba(51, 61, 41, 0.7),
+      rgba(51, 61, 41, 0.7)
+    ),
+    url(../images/AdobeStock_2249.jpeg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* margin-top: 90px; */
+}
+
+.hero .hero-title {
+  padding-top: 330px;
+}
+
+.title-c {
+  font-size: 84px;
+  color: #e9c46a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  /* text-decoration: ; */
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 290px;
+  /* left: 700px; */
+  padding-left: 830px;
+}
+
+.disc-c {
+  font-size: 28px;
+  color: #e9c46a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  /* text-decoration: ; */
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 350px;
+  /* left: 700px; */
+  padding-left: 830px;
+  padding-top: 30px;
+}
+
+.disc-h {
+  font-size: 22px;
+  color: #82896f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  /* text-decoration: ; */
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  position: absolute;
+  top: 450px;
+  /* left: 700px; */
+  padding-left: 830px;
+  padding-top: 30px;
+}
+
+section {
+  background-color: #82896f;
+  min-height: 800px;
+}
+
+.hot-topic {
+  max-width: 980px;
+  min-height: 178px;
+  margin: 0 auto;
+  padding-top: 90px;
+  /* background-color: #ffd700; */
+}
+
+.hot-topic .hot-topic-coffee {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: thin;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #82896f;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #e9c46a;
+}
+
+.hot-topic p {
+  width: 900px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: #ccd5ae;
+  /* text-transform: uppercase; */
+}
+
+.review {
+  width: 900px;
+  border: 1px solid #ffd700;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  /* background-color: #f9f9f9; */
+  margin-left: 310px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #48392a;
+}
+.rating {
+  font-size: 1.5em;
+  color: #ffd700;
+}
+.reviewer {
+  font-weight: bold;
+}
+.text {
+  margin-top: 10px;
+}
+
+footer {
+  height: 70px;
+  background-color: #48392a;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* -webkit-box-align: center; */
+  /* -ms-flex-align: center; */
+  /* align-items: center; */
+}
+footer .footer-wrap {
+  width: 300px;
+  height: 70px;
+  /* background-color: cadetblue; */
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 600px;
+  padding-top: 90px;
+}
+
+footer .copyright {
+  width: 120px;
+  color: #82896f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  /* margin-top: -100px; */
+  margin: 0 auto;
+  /* margin-top: 20px; */
+  display: flex;
+  /* background-color: blue; */
+  position: absolute;
+  top: 1535px;
+  left: 800px;
+}
+
+.f-imgs {
+  width: 100px;
+  height: 50px;
+  /* background-color: cadetblue; */
+  margin: 0 auto;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  /* margin-left: 600px;
+  padding-top: 50px; */
+  position: absolute;
+  top: 1530px;
+  left: 680px;
+}
+
+.f-imgs .in {
+  background-image: url(../images/instagram.png);
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #ffd700; */
+}
+
+.f-imgs .fb {
+  background-image: url(../images/facebook_w.png);
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
